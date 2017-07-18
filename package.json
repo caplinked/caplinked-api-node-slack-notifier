@@ -1,0 +1,36 @@
+{
+  "name": "caplinked-api-node-slack-notifier",
+  "author": "Caplinked <development@caplinked.com>",
+  "version": "0.1.0",
+  "description": "Example Caplinked API to Slack notification NodeJS SDK",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caplinked/caplinked-api-node-slack-notifier.git"
+  },
+  "main": "server.js",
+  "contributors": [
+    {
+      "name": "Arons Lee",
+      "email": "arons@caplinked.com"
+    }
+  ],
+  "keywords": [
+    "caplinked",
+    "api",
+    "secure",
+    "sdk",
+    "client",
+    "client library",
+    "slack",
+    "notifications"
+  ],
+  "dependencies": {
+    "caplinked-api-node": "^1.1.0",
+    "dotenv": "^4.0.0",
+    "install": "^0.10.1",
+    "lowdb": "^0.16.2",
+    "node-slackr": "^0.1.4",
+    "npm": "^5.3.0"
+  }
+}
