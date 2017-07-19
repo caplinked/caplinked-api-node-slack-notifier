@@ -1,7 +1,7 @@
 require('dotenv').config();
 var low = require('lowdb');
 var CaplinkedSDK = require('caplinked-api-node');
-var caplinked = new CaplinkedSDK({ apiUserToken: process.env.api_user_token, apiKey: process.env.api_key, apiSecretKey: process.env.api_secret_key });
+var caplinked = new CaplinkedSDK({ apiUserToken: process.env.api_user_token, apiKey: process.env.api_key, apiSecretKey: process.env.api_secret_key, apiHost: process.env.api_host });
 var db = low('db.json', { storage: require('lowdb/lib/storages/file-async') });
 var Slack = require('node-slackr');
 var slack = new Slack(process.env.slack_webhook_url, { channel: process.env.slack_channel });
