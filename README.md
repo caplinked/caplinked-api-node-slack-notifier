@@ -2,6 +2,8 @@
 
 Easy way to send all your Caplinked workspace/team events to your Slack channel using the Caplinked API / NodeJS SDK. This demo polls the Caplinked API for workspace activities every 5 seconds and sends the message to your specified Slack channel.
 
+https://developer.caplinked.com/
+
 ## Set your environment variables
 
 - ```api_user_token```
